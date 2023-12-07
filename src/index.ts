@@ -4,7 +4,7 @@ import { executeScript } from "./deno.ts";
 import { executeWasm } from "./wasm.ts"; // Import the function to execute WebAssembly files
 
 // Version of your CLI application
-const CLI_VERSION = "1.0.0";
+const CLI_VERSION = "0.4.0-deno";
 
 async function main() {
     const args = parse(Deno.args, {
