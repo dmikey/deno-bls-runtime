@@ -8,7 +8,7 @@
             "cwd": "${workspaceFolder}",
             "runtimeExecutable": "deno",
             "outputCapture": "std",
-            "runtimeArgs": ["run", "--inspect-brk", "-A", "src/index.ts"],
+            "runtimeArgs": ["run", "--inspect-brk", "-A", "src/index.ts", "test/helloRaw.wasm"],
             "attachSimplePort": 9229
         }
     ]
